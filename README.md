@@ -17,3 +17,11 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Dota2
 * Clash of Clans
 * Lords Mobile
+
+> Skill
+* WordPress `Basic`
+* CSS `Basic`
+* HTML `Basic`
+* PHP `Basic`
+* MySQL `Basic`
+* Bootstrap `Basic`
