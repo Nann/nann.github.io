@@ -10,8 +10,8 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Bachelor degree :
 
 > Work Experience
-* 2015 to present : Front-End Web Developer/WordPress at **[Nann Studio](https://www.facebook.com/NannStudio)**
-* 2017 to present : Contributor at **[SeedThemes](https://www.facebook.com/SeedThemes)**
+* Jan 2015 to present : Front-End Web Developer/WordPress at **[Nann Studio](https://www.facebook.com/NannStudio)**
+* Fab 2017 to present : Contributor at **[SeedThemes](https://www.facebook.com/SeedThemes)**
 
 > Hobbies
 * Dota2
