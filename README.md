@@ -12,6 +12,12 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Address : Phrae, Thailand 54160
 * Current Address : Chiang Mai, Thailand 50300
 
+> Relationship
+* Single
+
+> Favorite Quotes
+* Only two things are infinite, the universe and human stupidity and Im not sure about the former.
+
 > Education
 * Grade school : **[Banmaekratom](http://data.bopp-obec.info/emis/schooldata-view.php?School_ID=1054390233&Area_CODE=5402)**
 * Hight school : **[Saroyseree Wittaya](http://data.bopp-obec.info/emis/schooldata-view.php?School_ID=1054390317&Area_CODE=101737)**
