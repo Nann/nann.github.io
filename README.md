@@ -19,7 +19,7 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Lords Mobile
 
 > Skill
-* WordPress `Basic`
+* WordPress `Intermediate`
 * CSS `Basic`
 * HTML `Basic`
 * PHP `Basic`
