@@ -16,7 +16,7 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Single
 
 > Favorite Quotes
-* Only two things are infinite, the universe and human stupidity and Im not sure about the former.
+* Only two things are infinite, the universe and human stupidity and i'm not sure about the former.
 
 > Education
 * Grade school : **[Banmaekratom](http://data.bopp-obec.info/emis/schooldata-view.php?School_ID=1054390233&Area_CODE=5402)**
