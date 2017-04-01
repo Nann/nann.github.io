@@ -9,6 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="./assets/vendor/bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+      
+    <!-- Slidebars -->
+    <link href="./assets/vendor/Slidebars/css/slidebars.min.css" rel="stylesheet">
+      
+    <!-- Custom CSS -->
+    <link href="./assets/css/head.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,16 +24,34 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container-fullid">
-        <div class="row-full-id">
-            <div class="col-md-4">Logo</div>
-            <div class="col-md-8">Menu</div>
-        </div>
-    </div>
+      <div id="page" canvas="container">
+          <header id="masthead">
+              <div class="container">
+                  <div class="row">
+                      <div class="nann-branding col-md-4">
+                          <img src="assets/images/nann-logo.svg" alt="Nann Logo">
+                      </div>
+                      <div class="mobile-navigation col-md-8 _mobile">
+                          <a class="sb-toggle-right">Mobile Menu</a>
+                      </div>
+                      <div class="nann-navigation col-md-8 _desktop">
+                          <a href="#">Desktop Menu</a>
+                      </div>
+                  </div>
+              </div>
+          </header>
+      </div>
+      
+      <div off-canvas="sb-slidebar right push">
+          <p style="padding: 10px;">Mobile Menu</p>
+      </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./assets/vendor/jQuery/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./assets/vendor/bootstrap3/js/bootstrap.min.js"></script>
+    <!-- Slidebars -->
+    <script src="./assets/vendor/Slidebars/js/slidebars.min.js"></script>
+    <script src="./assets/vendor/Slidebars/js/main.min.js"></script>
   </body>
 </html>
