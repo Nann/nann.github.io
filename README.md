@@ -41,6 +41,23 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * PHP `Basic`
 * MySQL `Basic`
 * Bootstrap `Basic`
+* Photoshop `Basic`
+* Illustrator `Basic`
+
+> Tools
+* Sublime Text
+* Brackets
+* MAMP PRO
+* File Zilla
+* Mozilla ThunderBird
+* Sticky Notes
+* Terminal
+* CMDER
+* Evernote
+* Google Keep
+
+> Version Control
+* Github
 
 > Get in touch
 * Facebook : **[https://www.facebook.com/nannchalermchai](https://www.facebook.com/nannchalermchai)**
