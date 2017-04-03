@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+._desktop {
+    display: none !important;
+}
+@media (min-width: 992px){
+    ._mobile {
+        display: none !important;
+    }
+    ._desktop {
+        display: block !important;
+    }
+}
