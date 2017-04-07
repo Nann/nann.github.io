@@ -3,11 +3,16 @@
 ._desktop {
     display: none !important;
 }
-@media (min-width: 992px){
+@media (min-width: 992px) {
     ._mobile {
         display: none !important;
     }
     ._desktop {
         display: block !important;
     }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
 }
