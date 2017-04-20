@@ -14,7 +14,7 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 
 > Education
 * Grade school : **[Banmaekratom](http://data.bopp-obec.info/emis/schooldata-view.php?School_ID=1054390233&Area_CODE=5402)**
-* Hight school : **[Saroyseree Wittaya](http://data.bopp-obec.info/emis/schooldata-view.php?School_ID=1054390317&Area_CODE=101737)**
+* Hight school : **[Saroyseree Wittaya](http://www.saroyseree.ac.th)**
 * Vocational certificcate : **[Thoen Vocation College](http://www.thoen.ac.th)**
 * Hight vocational : **[Rajamangala University of Technology Lanna Tak](http://www.tak.rmutl.ac.th)**
 * Bachelor degree : **[Rajamangala University of Technology Lanna Tak](http://www.tak.rmutl.ac.th)**
