@@ -20,7 +20,7 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Bachelor degree : **[Rajamangala University of Technology Lanna Tak](http://www.tak.rmutl.ac.th)**
 
 > Work Experience
-* Jan 2015 to present : Web Designer at **[Nann Studio](https://www.facebook.com/NannStudio)**
+* Jan 2015 to present : Web Developer at **[Nann Studio](https://www.facebook.com/NannStudio)**
 * Fab 2017 to present : Contributor at **[SeedThemes](https://www.facebook.com/SeedThemes)**
 * April 2017 to present : Blogger at **[Nann Note](https://www.facebook.com/NannNote)**
 
