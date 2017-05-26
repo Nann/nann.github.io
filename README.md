@@ -73,6 +73,7 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Facebook : **[https://www.facebook.com/nannchalermchai](https://www.facebook.com/nannchalermchai)**
 * Twitter : **[https://twitter.com/nannchalermchai](https://twitter.com/nannchalermchai)**
 * Medium : **[https://medium.com/@nannchalermchai](https://medium.com/@nannchalermchai)**
+* LinkedIn : **[https://www.linkedin.com/in/nannchalermchai](https://www.linkedin.com/in/nannchalermchai/)**
 * Skype : **[nannchalermchai@gmail.com](nannchalermchai@gmail.com)**
 * Email : **[nannchalermchai@gmail.com](nannchalermchai@gmail.com)**
 * Website : **[https://www.nannstudio.com](https://www.nannstudio.com)**
