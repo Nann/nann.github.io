@@ -35,6 +35,8 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Dota2
 * Clash of Clans
 * Lords Mobile
+* Bike
+* Run
 
 > Skill
 * WordPress `Intermediate`
