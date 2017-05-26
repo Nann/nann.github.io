@@ -63,6 +63,12 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 > Version Control
 * Github
 
+> Technology News
+* Medium
+* Twitter
+* Blognone
+* Facebook
+
 > Get in touch
 * Facebook : **[https://www.facebook.com/nannchalermchai](https://www.facebook.com/nannchalermchai)**
 * Twitter : **[https://twitter.com/nannchalermchai](https://twitter.com/nannchalermchai)**
