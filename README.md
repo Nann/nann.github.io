@@ -47,6 +47,7 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Bootstrap `Basic`
 * Photoshop `Basic`
 * Illustrator `Basic`
+* SASS `Basic`
 
 > Tools
 * Sublime Text
@@ -61,7 +62,7 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Google Keep
 
 > Version Control
-* Github
+* Git
 
 > Technology News
 * Medium
