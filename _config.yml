@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
+title: "Chalermchai 'Nann' Prompunya"
 
 gem "github-pages", group: :jekyll_plugins
