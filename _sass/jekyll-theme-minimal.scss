@@ -2,7 +2,7 @@
 @import "rouge-github";
 
 body {
-  background-color: #fff;
+  background-color: #01579B;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -175,7 +175,10 @@ header ul a strong {
 section {
   width:500px;
   float:right;
+  padding-top: 30px;
+  padding-right: 30px;
   padding-bottom:50px;
+  padding-left: 30px;
 }
 
 small {
