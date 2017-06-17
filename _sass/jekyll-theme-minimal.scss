@@ -192,6 +192,15 @@ section {
   background-color: #ffffff;
   border-radius: 3px;
 
+  #intro {
+    background-color: #0277BD;
+    padding: 30px;
+
+    h1, h2, h3, h4 {
+        color: #ffffff;
+    }
+  }
+
   .entry {
     padding-top: 30px;
     padding-right: 30px;
