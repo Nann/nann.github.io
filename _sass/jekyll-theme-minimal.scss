@@ -109,11 +109,10 @@ header {
   .avatar {
     padding-bottom: 30px;
 
-    text-align: center;
-
     img {
         border-radius: 50%;
         border: 3px solid #ffffff;
+        max-width: 120px;
     }
   }
 }
