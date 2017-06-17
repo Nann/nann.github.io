@@ -106,6 +106,17 @@ img {
 }
 
 header {
+  .avatar {
+    text-align: center;
+
+    img {
+        border-radius: 50%;
+        border: 3px solid #ffffff;
+    }
+  }
+}
+
+header {
   width:270px;
   float:left;
   position:fixed;
@@ -180,6 +191,7 @@ section {
   padding-bottom:50px;
   padding-left: 30px;
   background-color: #ffffff;
+  border-radius: 3px;
 }
 
 small {
