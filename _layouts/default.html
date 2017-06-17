@@ -13,6 +13,7 @@
   </head>
   <body>
     <div class="wrapper">
+
       <header>
         <div class="avatar">
             <img src="./assets/img/nann-display.jpg">
@@ -29,18 +30,26 @@
         {% endif %}
 
       </header>
+
       <section>
-
-      {{ content }}
-
+          <div id="main">
+              <div id="content">
+                  <div id="intro">
+                      
+                  </div>
+                  <div class="entry">
+                        {{ content }}
+                  </div>
+              </div>
+          </div>
       </section>
+
       <footer>
-        <p><small>Follow Me</small></p>
+            <p><small>Follow Me</small></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-
-
+    
   {% if site.google_analytics %}
     <!-- Google Analytics -->
   {% endif %}
