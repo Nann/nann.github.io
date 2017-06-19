@@ -1,5 +1,4 @@
 title: i'm Nann
 description: Chalermchai Prompunya
-show_downloads: true
-google_analytics:
-theme: 
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
