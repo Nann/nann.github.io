@@ -6,54 +6,99 @@
     <title>{{ site.title }} by {{ site.github.owner_name }}</title>
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <link rel="stylesheet" id="seed-css" href="./assets/vendor/seedthemes/seed.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-css" href="./assets/vendor/font-awesome/font-awesome.min.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" media="all">
+    <link rel="stylesheet" id="seed-style-css" href="./assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" media="all">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-
-      <header>
-        <div class="avatar">
-            <img src="./assets/img/nann-display.jpg">
+    <div id="page" class="group">
+        <header id="head" class="group">
+            <div id="brand">
+                <a href="#" title="Nann" rel="home">
+                    <div class="logo fadeInUp bordered">
+                        <img src="./assets/img/nann-display.jpg" height="120" width="120" alt="nann-display">
+                    </div>
+                    <div class="name">
+                        <h2 class="title fadeIn">i'm Nann</h2>
+                        <h3 class="desc">
+                            <span class="fadeIn">Chalermchai Prompunya</span>
+                        </h3>
+                    </div>
+                </a>
+            </div>
+            <nav id="nav" role="navigation">
+                <button class="menu-toggle"><i class="icon-menu"></i> เมนู</button>
+            </nav>
+            <div id="mainnav" class="">
+                <div class="menu-main-container">
+                    <ul id="menu-main" class="main">
+                        <li class="menu-item">บันทึก</li>
+                        <li class="menu-item">เกี่ยวกับแนน</li>
+                        <li class="menu-item">ผลงานของนายแนน</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="main" class="group">
+            <div id="content" class="group" role="main">
+                <div id="intro">
+                    <h3>บล็อกส่วนตัวของแนน, นายเฉลิมชัย พรมปัญญา</h3>
+                    <h1>WordPress Frontend Developer</h1>
+                    <h4>Web Developer ที่ชื่นชอบการทำเว็บไซต์ด้วย WordPress</h4>
+                </div>
+                <div class="items group">
+                    <article class="nann post">
+                        <div class="item group">
+                            <div class="pic">
+                                <a href="#">
+                                    <img src="./assets/img/nann-display.jpg">
+                                </a>
+                            </div>
+                            <div class="info">
+                                <header>
+                                    <h3>
+                                        <a href="#">First Post By Nann</a>
+                                    </h3>
+                                </header>
+                                <div class="meta">
+                                    <i class="fa fa-calendar"> 19 มิถุนายน 2560</i>
+                                </div>
+                                <p class="excerpt">บันทึกนี้คงเป็นบันทึกสุดท้ายใน iMenn.com นะครับ ขอบคุณที่ติดตามกันมาตั้งแต่ 17 ปีที่แล้ว (ถ้านับการทำเว็บใน Geocities ด้วยก็คงนานกว่านั้น)</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div id="foot-widgets">
+                    <ul id="foot-widget">
+                        <li>Nann Footer Sidebar #1</li>
+                        <li>Nann Footer Sidebar #2</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <footer id="foot" role="contentinfo">
+                <div class="credit">
+                    <a href="http://www.wordpress.org" target="_blank">สร้างจาก WordPress</a>&amp;<a href="http://SeedThemes.com" target="_blank">ซี้ด ธีมส์</a>
+                </div>
+                <div class="copyright">
+                    <p>&copry; 2017 nann.github.io, all rights reserved.</p>
+                </div>
+            </footer>
         </div>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-      </header>
-
-      <section>
-          <div id="main">
-              <div id="content">
-                  <div id="intro">
-                      <h3>บล็อกส่วนตัวของนายแนน, นายเฉลิมชัย พรมปัญญา</h3>
-                      <h1>WordPress Frontend Developer</h1>
-                      <h4>Web Dev กาก ๆ ที่ชื่นชอบการทำเว็บไซต์ด้วย WordPress</h4>
-                  </div>
-                  <div class="entry">
-                        {{ content }}
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <footer>
-            <p><small>Follow Me</small></p>
-      </footer>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {  
 
-  {% if site.google_analytics %}
-    <!-- Google Analytics -->
-  {% endif %}
+        jQuery('.menu-toggle').click(function() {
+            jQuery('#mainnav').toggleClass('show');
+        });
+
+    });
+    </script>
   </body>
 </html>
