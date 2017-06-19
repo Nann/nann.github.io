@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-
+{% for post in site.posts %}
 <article class="nann post">
       <div class="item group">
           <div class="pic">
@@ -21,4 +21,5 @@ layout: post
               <p class="excerpt">Nann Excerpt</p>
           </div>
       </div>
- </article> 
+ </article>
+ {% endfor %}
