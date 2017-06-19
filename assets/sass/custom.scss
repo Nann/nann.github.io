@@ -15,3 +15,9 @@ a {
 #head, #head a, #foot, #foot a {
     color: #fff;
 }
+@media screen and (max-width: 739px) {
+    #content {
+        border-radius: 5px 5px 3px 3px !important;
+        margin: 0 10px;
+    }
+}
