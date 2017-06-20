@@ -17,4 +17,4 @@ defaults:
     scope:
       path: "README.md"
     values:
-      permalink: "about.html"
+      permalink: about.html
