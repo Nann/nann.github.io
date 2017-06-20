@@ -23,9 +23,14 @@ a {
 }
 
 #content {
-	.items {
-		&.group {
-			padding: 35px 45px !important;
-		}
-	}
+    .items.group {
+        padding: 35px 45px !important;
+
+            .nann-post {
+                .item.group {
+                    padding-left: 0px !important;
+                    padding-right: 0px !important;
+                }
+            }
+    }
 }
