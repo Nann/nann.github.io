@@ -1,5 +1,8 @@
-title: i'm Nann
+title: Nann.github.io
 description: Chalermchai Prompunya
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://nann.github.io"
+permalink: pretty
 markdown: kramdown
 excerpt_separator: <!--more-->
 
