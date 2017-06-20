@@ -42,6 +42,10 @@ layout: default
         </div>
         <div class="items group">
             {{ content }}
+
+            {% if page.is_post %}
+            {% include share.html %}
+            {% endif %}
         </div>
         <div id="foot-widgets">
             <ul id="foot-widget">
