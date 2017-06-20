@@ -1,6 +1,7 @@
 title: i'm Nann
 description: Chalermchai Prompunya
 markdown: kramdown
+excerpt_separator: "<!-- more -->"
 
 defaults:
   -
