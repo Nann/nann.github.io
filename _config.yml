@@ -2,7 +2,6 @@ title: Nann.github.io
 description: Chalermchai Prompunya
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://nann.github.io"
-permalink: pretty
 markdown: kramdown
 excerpt_separator: <!--more-->
 
@@ -13,4 +12,3 @@ defaults:
       type: posts   # limit to posts
     values:
       is_post: true # automatically set is_post=true for all posts
-      
