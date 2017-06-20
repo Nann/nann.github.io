@@ -13,8 +13,4 @@ defaults:
       type: posts   # limit to posts
     values:
       is_post: true # automatically set is_post=true for all posts
-  - 
-    scope:
-      path: "README.md"
-    values:
-      permalink: about.html
+      
