@@ -4,23 +4,23 @@ layout: post
 
 {% for post in site.posts %}
 <article class="nann post">
-      <div class="item group">
-          <div class="pic">
-              <a href="#">
-                  <img src="../assets/img/nann-display.jpg">
-              </a>
-              <div class="info">
-                  <header>
-                      <h3>
-                          <a href="{{ post.url }}" title="{{ page.title }}">{{ page.title }}</a>
-                      </h3>
-                  </header>
-                  <div class="meta">
-                      <i class="fa fa-calendar"> {{ page.date | date_to_string }}</i>
-                  </div>
-              </div>
-              <p class="excerpt">Nann Excerpt</p>
-          </div>
-      </div>
- </article>
+    <div class="item group">
+        <div class="pic">
+            <a href="{{ post.url }}" title="{{ post.title }}">
+                <img src="../assets/img/nann-display.jpg">
+            </a>
+        </div>
+        <div class="info">
+            <header>
+                <h3>
+                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </h3>
+            </header>
+            <div class="meta">
+                <i class="fa fa-calendar"> 19 มิถุนายน 2560</i>
+            </div>
+            <p class="excerpt">Nann Excerpt</p>
+        </div>
+    </div>
+</article>
 {% endfor %}
