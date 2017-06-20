@@ -21,3 +21,11 @@ a {
         margin: 0 10px;
     }
 }
+
+#content {
+	.items {
+		&.group {
+			padding: 35px 45px !important;
+		}
+	}
+}
