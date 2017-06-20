@@ -1,7 +1,8 @@
 $color-primary: #0277BD;
+$color-bg-body: #0c3f8e;
 
 body {
-    background-color: #0D47A1 !important;
+    background-color: $color-bg-body !important;
 }
 
 a {
