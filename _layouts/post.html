@@ -31,9 +31,12 @@ layout: default
 </header>
 <div id="main" class="group">
     <div id="content" class="group" role="main">
-
-        {{ content }}
-        
+        <div id="intro">
+            <h1>{{ post.title }}</h1>
+        </div>
+        <div class="items group">
+            {{ content }}
+        </div>
         <div id="foot-widgets">
             <ul id="foot-widget">
                 <li>Nann Footer Sidebar #1</li>
