@@ -1,16 +1,18 @@
+$color-primary: #0277BD;
+
 body {
     background-color: #0D47A1 !important;
 }
 
 a {
-    color: #399366;
+    color: $color-primary;
 }
 
 #brand .logo-avatar, #brand .logo-avatar img {
     border-radius: 0;
 }
 #intro, #content h1.title {
-    background-color: #0277BD;
+    background-color: $color-primary;
 }
 #head, #head a, #foot, #foot a {
     color: #fff;
@@ -45,4 +47,10 @@ a {
 }
 .text-center {
     text-align: center;
+}
+
+// icons
+.share-icons,
+.home-icons {
+  fill: $color-primary;
 }
