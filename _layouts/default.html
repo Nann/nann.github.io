@@ -6,6 +6,7 @@
     <title>{{ site.title }} by {{ site.github.owner_name }}</title>
 
     <link rel="stylesheet" href="{{ './assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="description" content="{{ page.description }}">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <link rel="stylesheet" id="seed-css" href="{{ './assets/vendor/seedthemes/seed.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" media="all">
@@ -15,6 +16,31 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!-- open graph meta tags -->
+    {% if paginator.next_page == 2 %}
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.thumbnail }}">
+    {% else %}
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="{{ page.thumbnail }}">
+    {% endif %}
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="fb:admins" content="408693672823899">
+    <meta property="og:type" content="website">
+
+    <!-- twitter card meta tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@nannchalermchai">
+    <meta name="twitter:domain" content="{{ site.url }}">
+    <meta name="twitter:creator" content="@nannchalermchai">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
   </head>
   <body>
     <div id="page" class="group">
