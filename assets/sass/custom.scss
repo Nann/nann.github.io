@@ -3,7 +3,7 @@ body {
 }
 
 a {
-    color: #399366 !important;
+    color: #399366;
 }
 
 #brand .logo-avatar, #brand .logo-avatar img {
@@ -33,4 +33,16 @@ a {
                 }
             }
     }
+}
+
+.share-icons {
+    width: 38px;
+    height: 38px;
+}
+
+.sharing {
+    font-size: 2rem;
+}
+.text-center {
+    text-align: center;
 }
