@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Post By Nann"
-thumbnail: "../assets/img/post/first-post-by-nann-feature-img.png"
+thumbnail: "../assets/img/posts/first-post-by-nann-feature-img.png"
 date: 2017-06-19
 ---
 
