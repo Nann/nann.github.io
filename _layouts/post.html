@@ -4,26 +4,29 @@ layout: default
 
 <header id="head" class="group">
     <div id="brand">
-        <a href="{{ '/' | prepend: site.baseurl }}" title="Nann" rel="home">
-            <div class="logo fadeInUp bordered">
+        <div class="logo fadeInUp bordered">
+            <a href="{{ '/' | prepend: site.baseurl }}" title="Nann" rel="home">
                 <img src="https://nann.github.io/assets/img/nann-display.jpg" height="120" width="120" alt="nann-display">
-            </div>
-            <div class="name">
-                <h2 class="title fadeIn">i'm Nann</h2>
-                <h3 class="desc">
-                    <span class="fadeIn">Chalermchai Prompunya</span>
-                </h3>
-            </div>
-        </a>
-    </div>
-    <nav id="nav" role="navigation">
-        <button class="menu-toggle"><i class="icon-menu"></i> เมนู</button>
-    </nav>
-    <div id="mainnav" class="">
-        <div class="menu-main-container">
-            {% include main-menu.html %}
+            </a>
+        </div>
+        <div class="name">
+            <h2 class="title fadeIn">i'm Nann</h2>
+            <h3 class="desc">
+                <span class="fadeIn">Chalermchai Prompunya</span>
+            </h3>
         </div>
     </div>
+    <div id="social-profile">
+        {% include social-profile.html %}
+    </div>
+    <nav id="nav" role="navigation">
+        <a class="site-mobile-navigation js-toggle-right-slidebar _mobile"><i class="fa fa-bars"></i> Menu</a>
+        <div id="mainnav" class="_desktop">
+            <div class="menu-main-container">
+                {% include main-menu.html %}
+            </div>
+        </div>
+    </nav>
 </header>
 <div id="main" class="group">
     <div id="content" class="group" role="main">
