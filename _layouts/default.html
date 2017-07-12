@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.title }}</title>
-
-    <link rel="stylesheet" href="{{ './assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
     <meta name="description" content="{{ page.description }}">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <link rel="stylesheet" id="seed-css" href="{{ './assets/vendor/seedthemes/seed.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" media="all">
     <link rel="stylesheet" id="font-awesome-css" href="{{ './assets/vendor/font-awesome/css/font-awesome.min.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" media="all">
+    <link rel="stylesheet" id="slidebars-css" href="{{ './assets/vendor/slidebars/css/slidebars-min.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" media="all">
     <link rel="stylesheet" id="seed-style-css" href="{{ './assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" media="all">
+    <link rel="stylesheet" id="style-css" href="{{ './assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" id="custom-style-css" href="{{ './assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" media="all">
 
-    <script type='text/javascript' src='{{ './assets/js/jquery-3.2.1.min.js?v=' | append: site.github.build_revision | relative_url }}'></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -45,10 +45,15 @@
     <meta name="twitter:description" content="{{ page.description }}">
   </head>
   <body>
-    <div id="page" class="group">
+    <div id="page" class="group" canvas="container">
         {{ content }}
     </div>
+    <div off-canvas="slidebar-2 right push">
+        {% include mobile-menu.html %}
+    </div>
     {% include icons-svg.html %}
-    <script type='text/javascript' src='{{ './assets/js/menu-toggle.js?v=' | append: site.github.build_revision | relative_url }}'></script>
+    <script type='text/javascript' src='{{ './assets/js/jquery-3.2.1.min.js?v=' | append: site.github.build_revision | relative_url }}'></script>
+    <script type='text/javascript' src='{{ './assets/vendor/slidebars/js/slidebars.min.js?v=' | append: site.github.build_revision | relative_url }}'></script>
+    <script type='text/javascript' src='{{ './assets/js/custom.js?v=' | append: site.github.build_revision | relative_url }}'></script>
   </body>
 </html>
