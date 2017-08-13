@@ -1,7 +1,7 @@
 {
-  "name": "Starter Project",
-  "short_name": "Starter Project",
-  "description": "Starter Project for NannStudio",
+  "name": "Resume NannStudio",
+  "short_name": "Resume NannStudio",
+  "description": "Resume NannStudio By Chalermchai Prompunya",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "fullscreen",

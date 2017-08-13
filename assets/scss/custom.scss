@@ -10,6 +10,7 @@ $opacity-color: 0.8;
 body {
     background-color: $midnight-light-color;
     color: $white-color;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
@@ -32,8 +33,6 @@ a {
     background-color: $midnight-color;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     text-align: center;
-    padding: 10px 0;
-    height: 50px;
     width: 100%;
     position: fixed;
     z-index: 9999;
@@ -58,6 +57,7 @@ a {
         .nann-logo {
             img {
                 max-width: 150px;
+                height: auto;
                 border-radius: 50%;
                 border: 20px solid $white-color;
                 background-color: $white-color;
@@ -93,7 +93,7 @@ a {
 }
 
 #wrapper {
-    padding-top: 80px;
+    padding-top: 95px;
 
     #right-side {
         padding-bottom: 50px;
@@ -104,7 +104,7 @@ a {
         position: relative;
 
         .project {
-            margin-bottom: 100px;
+            margin-bottom: 50px;
 
             .resume-title {
                 font-size: 35px;
@@ -128,6 +128,14 @@ a {
                     border: 5px solid $midnight-light-color;
                 }
             }
+
+            ul {
+                padding-left: 0px;
+
+                li {
+                    list-style: none;
+                }
+            }
         }
     }
 }
@@ -135,5 +143,17 @@ a {
 @media (max-width: 768px) {
     #nann-info {
         text-align: center;
+    }
+
+    #right-side {
+        padding-left: 30px !important;
+
+        .project {
+            .resume-title {
+                &:before {
+                    left: -45px !important;
+                }
+            }
+        }
     }
 }

@@ -1,8 +1,15 @@
 // ./sw.js
-var cacheName = 'starter-project-nannstudio';
+var cacheName = 'Resume NannStudio';
 var filesToCache = [
   '/index.html',
-  '/assets/vendor/bulma/0.5.0/css/bulma.min.css',
+  'https://fonts.googleapis.com/css?family=Roboto:100,300,600',
+  './assets/vendor/normalize/7.0.0/css/normalize.min.css',
+  './assets/vendor/bootstrap/3.3.7/css/bootstrap.min.css',
+  './assets/vendor/font-awesome/4.7.0/css/font-awesome.min.css',
+  './assets/vendor/animate/3.5.2/css/animate.min.css',
+  './assets/css/mousescroll.min.css',
+  './assets/css/custom.min.css',
+  './assets/img/profile-512x512.png',
   /* ...and other assets (jQuery, Materialize, fonts, etc) */
 ];
 
