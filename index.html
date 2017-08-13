@@ -1,71 +1,195 @@
----
-layout: default
----
+<!doctype html>
+<html lange="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- PWA -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Starter Project">
+        <meta name="apple-mobile-web-app-title" content="Starter Project">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="msapplication-navbutton-color" content="#ffffff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-starturl" content="/index.html">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--
+            manifest.json provides metadata used when your web app is added to the
+            homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+        -->
+        <link rel="manifest" href="manifest.json">
+        <link rel="icon" type="image/png" href="./favicon.png" sizes="16x16">
 
-<header id="head" class="group">
-    <div id="brand">
-        <div class="logo fadeInUp bordered">
-            <a href="{{ '/' | prepend: site.baseurl }}" title="Nann" rel="home">
-                <img src="{{ site.url }}/assets/img/nann-display.jpg" height="120" width="120" alt="nann-display">
-            </a>
-        </div>
-        <div class="name">
-            <h2 class="title fadeIn">i'm Nann</h2>
-            <h3 class="desc">
-                <span class="fadeIn">Chalermchai Prompunya</span>
-            </h3>
-        </div>
-        <div id="social-profile">
-            {% include social-profile.html %}
-        </div>
-    </div>
-    <nav id="nav" role="navigation">
-        <a class="site-mobile-navigation js-toggle-right-slidebar _mobile"><i class="fa fa-bars"></i> Menu</a>
-        <div id="mainnav" class="_desktop">
-            <div class="menu-main-container">
-                {% include main-menu.html %}
-            </div>
-        </div>
-    </nav>
-</header>
-<div id="main" class="group">
-    <div id="content" class="group" role="main">
-        <div id="intro">
-            <h1>บันทึกแบบสาธารณะของนายแนน</h1>
-        </div>
-        <div class="items group">
-            {% for post in site.posts limit:5 %}
-            <article class="nann-post">
-                <div class="item group">
-                    <div class="pic">
-                        <a href="{{ post.url }}" title="{{ post.title }}">
-                            <img src="{{ post.thumbnail }}">
-                        </a>
-                    </div>
-                    <div class="info">
-                        <header>
-                            <h3>
-                                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                            </h3>
-                        </header>
-                        <div class="meta">
-                            <i class="fa fa-calendar"> 
-                            {% assign d = post.date | date: "%-d" s %}
-                            {% case d %}
-                                {% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>
-                                {% when '2' or '22' %}{{ d }}<sup>nd</sup>
-                                {% when '3' or '23' %}{{ d }}<sup>rd</sup>
-                                {% else %}{{ d }}<sup>th</sup>
-                                {% endcase %}
-                            {{ post.date | date: "%B, %Y" }}
-                            </i>
-                        </div>
-                        <p class="excerpt">{{ post.excerpt }}</p>
+        <!-- Bulma CSS Framework -->
+        <link rel="stylesheet" href="./assets/vendor/bulma/0.5.0/css/bulma.min.css?v=1.0.1">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="./assets/vendor/font-awesome/4.7.0/css/font-awesome.min.css?v=1.0.1">
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="./assets/vendor/animate/3.5.2/css/animate.min.css?v=1.0.1">
+        <!-- MouseScroll -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/mousescroll.min.css?v=1.0.1">
+        <!-- Custom -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/custom.min.css?v=1.0.1">
+        <title>Resume: Chalermchai Prompunya</title>
+    </head>
+    <body>
+        <div id="page">
+            <header id="top-header">
+                <div class="container is-fluid">
+                    <div class="top-nav">
+                        <ul id="primary-menu">
+                            <li class="menu-item"><a href="#about">about</a></li>
+                            <li class="menu-item"><a>blogs</a></li>
+                        </ul>
                     </div>
                 </div>
-            </article>
-            {% endfor %}
+            </header>
+            <div id="wrapper">
+                <div id="content">
+                    <div class="container">
+                        <div class="columns">
+                            <div id="left-side" class="column is-one-third">
+                                <div id="nann-info">
+                                    <div class="branding">
+                                        <div class="nann-logo">
+                                            <img src="./assets/img/profile-512x512.png" width="512" height="512">
+                                        </div>
+                                        <div class="nann-title">
+                                            <h1>Hi, I'm Nann</h1>
+                                            <h4>Chalermchai Prompunya</h4>
+                                        </div>
+                                    </div>
+                                    <div id="social-profile">
+                                        <div class="social-container">
+                                            <ul id="social-link">
+                                                <li class="social-item"><a href="https://www.facebook.com/nannchalermchai/" target="_blank"><i class="fa fa-facebook-square"> </i></a></li>
+                                                <li class="social-item"><a href="https://twitter.com/nannchalermchai/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                <li class="social-item"><a href="https://medium.com/@nannchalermchai/" target="_blank"><i class="fa fa-medium"></i></a></li>
+                                                <li class="social-item"><a href="https://www.linkedin.com/in/nannchalermchai/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                                <li class="social-item"><a href="https://github.com/Nann/" target="_blank"><i class="fa fa-github"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="scroll-btn">
+                                        <div>
+                                            <span class="mouse">
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div id="right-side" class="column">
+                                <section id="about">
+                                    <h3 class="resume-title">About Me</h3>
+                                    <p>i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design, Web Development, Web Performance, WordPress, UX / UI and pretty girl. So, Let's talk about it.</p>
+                                </section>
+                                <section id="basic-info">
+                                    <h3 class="resume-title">Basic Infomation</h3>
+                                    <ul>
+                                        <li>Birth Date : April 25th, 1990 (Wednesday)</li>
+                                        <li>Gender : Male</li>
+                                        <li>Interested In : Women</li>
+                                        <li>Languages : Thai language</li>
+                                        <li>Religious Views : Buddhism</li>
+                                    </ul>
+                                </section>
+                                <section id="contact-info">
+                                    <h3 class="resume-title">Contact Infomation</h3>
+                                    <ul>
+                                        <li>Address : Phrae, Thailand 54160</li>
+                                        <li>Current Address : Chiang Mai, Thailand 50300</li>
+                                    </ul>
+                                </section>
+                                <section id="education">
+                                    <h3 class="resume-title">Education</h3>
+                                    <ul>
+                                        <li>Grade school : Banmaekratom</li>
+                                        <li>Hight school : Saroyseree Wittaya</li>
+                                        <li>Vocational certificcate : Thoen Vocation College</li>
+                                        <li>Hight vocational : Rajamangala University of Technology Lanna Tak</li>
+                                        <li>Bachelor degree : Rajamangala University of Technology Lanna Tak</li>
+                                    </ul>
+                                </section>
+                                <section id="experience">
+                                    <h3 class="resume-title">Work Experience</h3>
+                                    <ul>
+                                        <li>Jan 2015 to present : Web Developer at Nann Studio</li>
+                                        <li>Fab 2017 to present : Junior Web Developer at Creative Chili</li>
+                                        <li>Fab 2017 to present : Contributor at SeedThemes</li>
+                                        <li>April 2017 to present : Blogger at Nann Note</li>
+                                    </ul>
+                                </section>
+                                <section id="hobbies">
+                                    <h3 class="resume-title">Hobbies</h3>
+                                    <ul>
+                                        <li>Dota2</li>
+                                        <li>Clash of Clans</li>
+                                        <li>Lords Mobile</li>
+                                        <li>Bike</li>
+                                        <li>Run</li>
+                                    </ul>
+                                </section>
+                                <section id="skill">
+                                    <h3 class="resume-title">Skill</h3>
+                                    <ul>
+                                        <li>WordPress <span class="s-level">Intermediate</span></li>
+                                        <li>CSS <span class="s-level">Basic</span></li>
+                                        <li>Bootstrap <span class="s-level">Basic</span></li>
+                                        <li>Bulma <span class="s-level">Basic</span></li>
+                                        <li>Photoshop <span class="s-level">Basic</span></li>
+                                        <li>Illustrator <span class="s-level">Basic</span></li>
+                                        <li>Sass <span class="s-level">Basic</span></li>
+                                        <li>LESS <span class="s-level">Basic</span></li>
+                                    </ul>
+                                </section>
+                                <section id="tools">
+                                    <h3 class="resume-title">Tools</h3>
+                                    <ul>
+                                        <li>Sublime Text</li>
+                                        <li>Brackets</li>
+                                        <li>MAMP PRO</li>
+                                        <li>File Zilla</li>
+                                        <li>Mozilla ThunderBird</li>
+                                        <li>Sticky Notes</li>
+                                        <li>Terminal</li>
+                                        <li>CMDER</li>
+                                        <li>Evernote</li>
+                                        <li>Google Keep</li>
+                                    </ul>
+                                </section>
+                                <section id="version-control">
+                                    <h3 class="resume-title">Version Control</h3>
+                                    <ul>
+                                        <li>Git</li>
+                                    </ul>
+                                </section>
+                                <section id="news">
+                                    <h3 class="resume-title">Technology News</h3>
+                                    <ul>
+                                        <li>Medium</li>
+                                        <li>Twitter</li>
+                                        <li>Blognone</li>
+                                        <li>Facebook</li>
+                                    </ul>
+                                </section>
+                                <section id="get-in-touch">
+                                    <h3 class="resume-title">Get in touch</h3>
+                                    <ul>
+                                        <li>Facebook : https://www.facebook.com/nannchalermchai</li>
+                                        <li>Twitter : https://twitter.com/nannchalermchai</li>
+                                        <li>Medium : https://medium.com/@nannchalermchai</li>
+                                        <li>LinkedIn : https://www.linkedin.com/in/nannchalermchai</li>
+                                        <li>Skype : nannchalermchai@gmail.com</li>
+                                        <li>Email : nannchalermchai@gmail.com</li>
+                                        <li>Website : https://www.nannstudio.com</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    {% include footer-copyright.html %}
-</div>
+        <!-- <script type="text/javascript" src="./app.js"></script> -->
+    </body>
+</html>
