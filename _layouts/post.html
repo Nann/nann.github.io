@@ -85,14 +85,18 @@ layout: default
 
                   <div class="col-md-8">
                     <div id="right-side">
+                      {% if page.is_post %}
+                      <h3 class="post-title">{{ page.title }}</h3>
+                      {% endif %}
+
                       {{ content }}
 
                       {% if page.is_post %}
                       {% include share.html %}
+
                       <div id="post-meta">
                         <h2>ความเห็นจากเฟสบุค</h2>
                         {% include facebook-init.html %}
-
                         <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5"></div>
                       </div>
                       {% endif %}
