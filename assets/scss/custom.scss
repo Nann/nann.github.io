@@ -20,6 +20,20 @@ body {
         color: $black-color;
       }
 
+      #top-header {
+        li {
+          a {
+            color: $white-color;
+
+            &:hover {
+                color: $white-color;
+                opacity: 1;
+                text-decoration: none;
+            }
+          }
+        }
+      }
+
     }
 }
 
