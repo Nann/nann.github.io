@@ -1,5 +1,6 @@
 $midnight-color: #2b304c;
 $midnight-light-color: #333959;
+$midnight-light-50-color: #8189b3;
 
 $grey-50-color: #fafafa;
 $white-color: #ffffff;
@@ -34,6 +35,24 @@ body {
 
           &:first-child:after {
             color: $white-color;
+          }
+        }
+      }
+
+      #wrapper {
+        #content {
+          #right-side {
+            .nann-post {
+              .post-meta {
+                .post-calendar {
+                  background-color: $midnight-light-50-color;
+                  color: $white-color;
+                  padding: 5px;
+                  border-radius: 3px;
+                  font-size: 12px;
+                }
+              }
+            }
           }
         }
       }
