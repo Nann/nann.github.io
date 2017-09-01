@@ -12,6 +12,15 @@ body {
     color: $white-color;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+
+    &:not(.home) {
+      background-color: $grey-50-color;
+
+      h1, h2, h3, h4, h5, h6, a, p, span, div {
+        color: $black-color;
+      }
+
+    }
 }
 
 h1, h2, h3, h4, h5, h6, a, p, span, div {
@@ -26,7 +35,13 @@ a {
     &:hover {
         color: $white-color;
         opacity: 1;
+        text-decoration: none;
     }
+}
+
+.t-dashed {
+    border-bottom: 1px dashed rgba(255,255,255,0.6);
+    padding-bottom: 3px;
 }
 
 #top-header {
@@ -38,6 +53,8 @@ a {
     z-index: 9999;
 
     #primary-menu {
+        padding-left: 0px;
+
         li {
             display: inline-block;
 
@@ -59,12 +76,14 @@ a {
                 max-width: 150px;
                 height: auto;
                 border-radius: 50%;
-                border: 20px solid $white-color;
+                border: 2px solid $white-color;
                 background-color: $white-color;
                 -ms-box-shadow: 0 0 9px 1px rgba(49, 49, 49, 0.17);
                 -moz-box-shadow: 0 0 9px 1px rgba(49, 49, 49, 0.17);
                 -webkit-box-shadow: 0 0 9px 1px rgba(49, 49, 49, 0.17);
                 box-shadow: 0 0 9px 1px rgba(49, 49, 49, 0.17);
+                -webkit-filter: grayscale(.95);
+                filter: grayscale(.95);
             }
         }
 
@@ -144,6 +163,7 @@ a {
 
                 li {
                     list-style: none;
+                    margin-bottom: 15px;
                 }
             }
         }
