@@ -1,0 +1,31 @@
+---
+layout: post
+title: บันทึก
+---
+
+{% for post in site.posts %}
+<article class="nann-post">
+    <div class="item group">
+        <div class="info">
+            <header>
+                <h3>
+                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </h3>
+            </header>
+            <div class="meta">
+                <i class="fa fa-calendar"> 
+                {% assign d = post.date | date: "%-d" s %}
+                {% case d %}
+                    {% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>
+                    {% when '2' or '22' %}{{ d }}<sup>nd</sup>
+                    {% when '3' or '23' %}{{ d }}<sup>rd</sup>
+                    {% else %}{{ d }}<sup>th</sup>
+                    {% endcase %}
+                {{ post.date | date: "%B, %Y" }}
+                </i>
+            </div>
+            <p class="excerpt">{{ post.excerpt }}</p>
+        </div>
+    </div>
+</article>
+{% endfor %}
