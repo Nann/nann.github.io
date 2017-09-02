@@ -44,10 +44,11 @@ body {
           #right-side {
             padding-left: 0px;
             margin-left: 0px;
+            border-left: 0px;
 
             .nann-post {
               padding-bottom: 15px;
-              
+
               .post-meta {
                 .post-calendar {
                   background-color: $midnight-light-50-color;
