@@ -58,6 +58,12 @@ body {
             .nann-post {
               padding-bottom: 15px;
 
+              .post-header {
+                .post-title {
+                  margin-bottom: 0px;
+                }
+              }
+
               .post-meta {
                 .post-calendar {
                   background-color: $midnight-light-50-color;
