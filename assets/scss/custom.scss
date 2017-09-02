@@ -46,6 +46,11 @@ body {
             margin-left: 0px;
             border-left: 0px;
 
+            .post-title {
+              margin-top: 0px;
+              font-weight: 300;
+            }
+
             .nann-post {
               padding-bottom: 15px;
 
@@ -59,6 +64,28 @@ body {
                 } // .post-calendar
               } // .post-meta
             } // .nann-post
+
+            .sharing {
+              .title-sharing {
+                font-weight: 400;
+              }
+
+              .share-icons {
+                width: 32px;
+                height: 32px;
+              }
+
+            }
+
+            hr {
+              border: 0;
+              border-bottom: 1px solid rgba(72, 86, 101, 0.2);
+              width: 60%;
+              margin-top: 4rem;
+              margin-bottom: 4rem;
+              margin-left: auto;
+              margin-right: auto;
+            }
           } // #right-side
         } // #content
       } // #wrapper
@@ -72,7 +99,6 @@ h1, h2, h3, h4, h5, h6, a, p, span, div {
 
 a {
     color: $white-color;
-    font-weight: bold;
     opacity: $opacity-color;
 
     &:hover {
@@ -85,6 +111,10 @@ a {
 .t-dashed {
     border-bottom: 1px dashed rgba(255,255,255,0.6);
     padding-bottom: 3px;
+}
+
+.-center {
+  text-align: center;
 }
 
 #top-header {
@@ -135,10 +165,12 @@ a {
 
             h1 {
                 margin-bottom: 0px;
+                font-weight: 300;
             }
 
             h4 {
                 margin-top: 0px;
+                font-weight: 300;
             }
         }
     }
@@ -228,5 +260,11 @@ a {
                 }
             }
         }
+    }
+}
+
+@media print {
+    .hide-print {
+        display: none;
     }
 }
