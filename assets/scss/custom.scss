@@ -30,19 +30,24 @@ body {
                 color: $white-color;
                 opacity: 1;
                 text-decoration: none;
-            }
-          }
+            } // a:hover
+          } // a
 
           &:first-child:after {
             color: $white-color;
-          }
-        }
-      }
+          } // first-child:after
+        } // li
+      } // #top-header
 
       #wrapper {
         #content {
           #right-side {
+            padding-left: 0px;
+            margin-left: 0px;
+
             .nann-post {
+              padding-bottom: 15px;
+              
               .post-meta {
                 .post-calendar {
                   background-color: $midnight-light-50-color;
@@ -50,15 +55,15 @@ body {
                   padding: 5px;
                   border-radius: 3px;
                   font-size: 12px;
-                }
-              }
-            }
-          }
-        }
-      }
+                } // .post-calendar
+              } // .post-meta
+            } // .nann-post
+          } // #right-side
+        } // #content
+      } // #wrapper
 
-    }
-}
+    } // not(.home)
+} // body
 
 h1, h2, h3, h4, h5, h6, a, p, span, div {
     color: $white-color;
