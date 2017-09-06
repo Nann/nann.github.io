@@ -5,13 +5,13 @@ thumbnail: "../assets/img/posts/2017/09/nann-multiple-ssh-keys-settings-feature-
 date: 2017-09-06
 ---
 
-![Multiple SSH Keys Settings](../assets/img/posts/2017/09/nann-multiple-ssh-keys-settings-feature-img.png)
+![Multiple SSH Keys Settings]({{ site.url }}/assets/img/posts/2017/09/nann-multiple-ssh-keys-settings-feature-img.png)
 
 ปัจจุบันหากเป็น ***Developer*** ไม่มีใครที่ไม่รู้จัก ***Git*** อย่างแน่นอน เพราะเป็น ***Version Control*** ที่ทำให้ชีวิตของ Developer นั้นดี๊ดี ไม่ต้องมากังวลเวลาโค้ดพังแล้วจะเอาตัวที่ไม่พังมาจากไหน และยังลดปัญหาการ ***Backup*** ไฟล์ได้อีกด้วย
 
 ผมเริ่มต้นการใช้งาน Git เมื่อประมาณต้นเดือนพฤษภาคม 2560 ตอนนั้นทำตามเอกสารเลยผลที่ออกจึงเป็นแบบนี้
 
-![First Use Git](../assets/img/posts/2017/09/nann-first-use-git.png)
+![First Use Git]({{ site.url }}/assets/img/posts/2017/09/nann-first-use-git.png)
 
 จำได้ว่า ***Username*** แรกตอนสมัครคือ ***Nannchalermchai*** แต่อยากใช้ชื่อสั้น ๆ ว่า ***Nann*** แต่ใช้ไม่ได้เพราะมีคนใช้อยู่แล้ว จึงตั้ง ***user.name*** เอาไว้ว่า ***Nann*** พอใช้ไปสักพักก็เริ่มเปลี่ยนรูปประจำตัว แล้วพบว่าที่เคย ***Commit*** ไปไม่เปลี่ยนรูปประจำตัวให้ เลยทำให้รู้ว่าควรตั้งค่า ***user.name*** ตาม ***Username*** ของเราไม่ใช่ ***Full Name*** อะไรก็ได้
 
