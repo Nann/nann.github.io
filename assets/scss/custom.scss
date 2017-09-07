@@ -73,13 +73,8 @@ body {
             .highlighter-rouge {
               background-color: $highlight-color;
               padding: 16px;
-              font-size: 85%;
               border-radius: $radius-3;
               border: 1px solid rgba(0, 0, 0, .1);
-
-              pre, code {
-                font-size: 85%;
-              }
             }
 
             & > .post-title {
