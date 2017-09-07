@@ -1,7 +1,7 @@
 {
-  "name": "NannStudio",
-  "short_name": "NannStudio",
-  "description": "Resume NannStudio By Chalermchai Prompunya",
+  "name": "Nann Note",
+  "short_name": "Nann Note",
+  "description": "Note By Chalermchai Prompunya",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "fullscreen",
