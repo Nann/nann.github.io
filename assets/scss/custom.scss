@@ -5,8 +5,11 @@ $midnight-light-50-color: #8189b3;
 $grey-50-color: #fafafa;
 $white-color: #ffffff;
 $black-color: #333333;
+$highlight-color: #f6f8fa;
 
 $opacity-color: 0.8;
+$radius-3: 3px;
+$radius-50: 50%;
 
 body {
     background-color: $midnight-light-color;
@@ -62,9 +65,17 @@ body {
 
               > img {
                 max-width: 100%;
-                border-radius: 3px;
+                border-radius: $radius-3;
                 box-shadow: 2px 2px 6px rgba(0,0,0,.26);
               }
+            }
+
+            .highlighter-rouge {
+              background-color: $highlight-color;
+              padding: 16px;
+              font-size: 85%;
+              border-radius: $radius-3;
+              border: 1px solid rgba(0, 0, 0, .1);
             }
 
             & > .post-title {
@@ -85,7 +96,7 @@ body {
                   background-color: $midnight-light-50-color;
                   color: $white-color;
                   padding: 5px;
-                  border-radius: 3px;
+                  border-radius: $radius-3;
                   font-size: 12px;
                 } // .post-calendar
 
@@ -185,7 +196,7 @@ a {
             img {
                 max-width: 150px;
                 height: auto;
-                border-radius: 50%;
+                border-radius: $radius-50;
                 border: 2px solid $white-color;
                 background-color: $white-color;
                 -ms-box-shadow: 0 0 9px 1px rgba(49, 49, 49, 0.17);
