@@ -51,13 +51,21 @@ body {
               font-weight: 300;
             }
 
-            &>p>img {
-              max-width: 100%;
-              border-radius: 3px;
-              box-shadow: 2px 2px 6px rgba(0,0,0,.26);
+            h1, h2, h3, h4, h5, h6 {
+              font-family: "Maledpan", sans-serif;
             }
 
-            &>.post-title {
+            > p {
+              font-family: "CS Chatthai UI", sans-serif;
+
+              > img {
+                max-width: 100%;
+                border-radius: 3px;
+                box-shadow: 2px 2px 6px rgba(0,0,0,.26);
+              }
+            }
+
+            & > .post-title {
               font-size: 32px;
             }
 
