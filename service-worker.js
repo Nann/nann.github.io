@@ -11,7 +11,7 @@ var filesToCache = [
   '/assets/vendor/animate/3.5.2/css/animate.min.css',
   '/assets/css/mousescroll.min.css',
   '/assets/css/custom.min.css',
-  '/assets/img/profile-512x512.png'
+  '/assets/img/display-nann.png'
 ];
 
 self.addEventListener('install', function(e) {
