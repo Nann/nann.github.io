@@ -51,12 +51,14 @@ body {
               font-weight: 300;
             }
 
-            h2, h3, h4, h5, h6 {
+            > h2 {
               font-family: "Maledpan", sans-serif;
+              font-size: 1.6em;
             }
 
             > p {
               font-family: "CS Chatthai UI", sans-serif;
+              font-size: 16px;
 
               > img {
                 max-width: 100%;
