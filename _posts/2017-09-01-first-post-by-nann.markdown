@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Post by Nann"
-thumbnail: "{{ site.url }}/assets/img/posts/2017/09/first-post-by-nann-feature-img.png"
+thumbnail: "../assets/img/posts/2017/09/first-post-by-nann-feature-img.png"
 date: 2017-09-01
 ---
 
