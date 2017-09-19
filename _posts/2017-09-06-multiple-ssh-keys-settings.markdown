@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multiple SSH Keys Settings"
-thumbnail: "../assets/img/posts/2017/09/nann-multiple-ssh-keys-settings-feature-img.png"
+thumbnail: "{{ site.url }}/assets/img/posts/2017/09/nann-multiple-ssh-keys-settings-feature-img.png"
 date: 2017-09-06
 ---
 
