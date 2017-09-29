@@ -32,7 +32,6 @@ i'm Chalermchai "Nann" Prompunya, i'm interested in Web Technologies, Web Design
 * Only two things are infinite, the universe and human stupidity and i'm not sure about the former.
 
 > Hobbies
-* Dota2
 * Clash of Clans
 * Lords Mobile
 * Bike
